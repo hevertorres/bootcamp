@@ -22,6 +22,7 @@ public static class Coche{
 
         public  void incrementarPuerta(){
                 this.puertas += 1; 
+                System.out.println("Incrementado 1 puerta al coche");
         }
         public  void mostrarPuertas(){
                 System.out.println("El coche tiene "+this.puertas+" puertas");
@@ -33,6 +34,8 @@ public static class Coche{
 
             Coche miCoche = new Coche();
 
+            miCoche.mostrarPuertas();
+            miCoche.incrementarPuerta();
             miCoche.mostrarPuertas();
     }
 

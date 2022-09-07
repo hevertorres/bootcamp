@@ -17,8 +17,25 @@ public class Ejercicio3{
             System.out.println("La suma de los numeros "+num1+", "+num2+", "+num3+" es :"+(num1+num2+num3));
     }
 
+public static class Coche{
+        int puertas =0;
+
+        public  void incrementarPuerta(){
+                this.puertas += 1; 
+        }
+        public  void mostrarPuertas(){
+                System.out.println("El coche tiene "+this.puertas+" puertas");
+        }
+}
+
     public static void main(String[] args){
             sumar(1,20, 30);
+
+            Coche miCoche = new Coche();
+
+            miCoche.mostrarPuertas();
     }
+
+
 
 }

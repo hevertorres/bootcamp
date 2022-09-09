@@ -4,13 +4,13 @@ public class Ejercicio8 {
         Persona trabajador = new Persona();
     
         trabajador.setsEdad(40);
-        trabajador.setsNombre("Carlos");
+        trabajador.setsNombre("Carlos Andres ");
         trabajador.setsTelefono("6485532");
     
         System.out.println("----Datos del Trabajador--------");
-        System.out.println("Nombre "+trabajador.getsNombre()+" edad : "+trabajador.getsEdad()+
-        " Telefono :"+ trabajador.getsTelefono());
-        System.out.println("----  -----------  --------");
+        System.out.println("Nombre: "+trabajador.getsNombre()+",edad: "+trabajador.getsEdad()+
+        " años "+",Telefono: "+ trabajador.getsTelefono());
+        System.out.println("--                                      --");
     }
 
     /* Ejercicios tema 8
@@ -22,7 +22,7 @@ Crear un objeto persona en el main.
 Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, 
 por último muéstralas por consola.
  */
-public class Persona {
+public static class Persona {
     private int edad;
     private String nombre;
     private String telefono;

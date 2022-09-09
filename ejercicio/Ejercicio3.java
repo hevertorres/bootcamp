@@ -21,11 +21,11 @@ public static class Coche{
         int puertas =0;
 
         public  void incrementarPuerta(){
-                this.puertas += 1; 
+                puertas += 1; 
                 System.out.println("Incrementado 1 puerta al coche");
         }
         public  void mostrarPuertas(){
-                System.out.println("El coche tiene "+this.puertas+" puertas");
+                System.out.println("El coche tiene "+puertas+" puertas");
         }
 }
 
